@@ -89,6 +89,25 @@
             border-radius: 5px;
             font-weight: bold;
         }
+        /* Style for the resume button */
+        .resume-button-container {
+            text-align: center;
+            margin-top: 1rem;
+        }
+        .resume-button {
+            display: inline-block;
+            background: #28a745; /* A nice green color */
+            color: #fff;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .resume-button:hover {
+            background: #218838; /* A darker green on hover */
+        }
         footer {
             text-align: center;
             padding: 2rem 0;
@@ -131,6 +150,16 @@
         </div>
     </section>
     
+    <section id="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <div class="card resume-button-container">
+                <p>Click the button below to download my full resume in PDF format.</p>
+                <a href="Yiming Li resume.pdf" class="resume-button" target="_blank">Download My Resume (PDF)</a>
+            </div>
+        </div>
+    </section>
+
     <section id="experience">
         <div class="container">
             <h2>Professional Experience</h2>
@@ -144,79 +173,25 @@
                     <li>Independently developed an interactive psychology experiment software in Python (Pygame) that automated the entire research workflow.</li>
                 </ul>
             </div>
-            <div class="card">
-                <span class="date">01/2024 - 03/2024</span>
-                <h3>Jiahua Information Technology</h3>
-                <p class="job-title">Software Develop Intern</p>
-                <ul>
-                    <li>Developed data pipeline and NLP model for a conversational system project, applying prompt engineering to generate synthetic banking dialogues and training lightweight models for intent recognition and dialogue summarization.</li>
-                </ul>
             </div>
-            <div class="card">
-                <span class="date">07/2023 - 08/2023</span>
-                <h3>Sunshine Financial Technology</h3>
-                <p class="job-title">Data Analyst Intern</p>
-                <ul>
-                    <li>Handled multiple business analysis and data reporting tasks, including authoring in-depth business analysis reports and maintaining departmental reporting workflows.</li>
-                </ul>
-            </div>
-        </div>
     </section>
 
     <section id="projects">
         <div class="container">
             <h2>Projects</h2>
-            <div class="card">
-                <span class="date">10/2021 - 06/2025</span>
-                <h3>Computational Modeling of Dynamic Cognitive Processes</h3>
-                <p>Applied computational neuroscience methods, using point process models to analyze neural spiking activity from the orbitofrontal cortex to quantify and decode neural signals during economic decision-making. Developed a novel state-space model using Bayesian methods to dynamically track latent cognitive states.</p>
             </div>
-            <div class="card">
-                <span class="date">09/2023 - 11/2024</span>
-                <h3>Financial Assets Prediction Based on ARIMA, Random Forest and GRU</h3>
-                <p>Conducted an independent comparative study on financial asset forecasting, systematically evaluating ARIMA, Random Forest, and Gated Recurrent Unit (GRU) for their ability to model linear trends, robustness to noise, and accuracy in complex time-series dependencies.</p>
-            </div>
-        </div>
     </section>
 
     <section id="skills">
         <div class="container">
             <h2>Skills</h2>
-            <div class="skills-container">
-                <span class="skill-item">Python</span>
-                <span class="skill-item">R</span>
-                <span class="skill-item">SQL</span>
-                <span class="skill-item">C/C++</span>
-                <span class="skill-item">Julia</span>
-                <span class="skill-item">PyTorch</span>
-                <span class="skill-item">Scikit-learn</span>
-                <span class="skill-item">LightGBM</span>
-                <span class="skill-item">Pandas</span>
-                <span class="skill-item">NumPy</span>
-                <span class="skill-item">MySQL</span>
-                <span class="skill-item">MongoDB</span>
-                <span class="skill-item">Linux</span>
-                <span class="skill-item">Git</span>
-                <span class="skill-item">Docker</span>
             </div>
-        </div>
     </section>
 
     <section id="education">
         <div class="container">
             <h2>Education</h2>
-            <div class="card">
-                <span class="date">09/2025 - Present</span>
-                <h3>Boston University</h3>
-                <p class="degree-title">M.S. in Data Science</p>
             </div>
-            <div class="card">
-                <span class="date">08/2021 - 07/2025</span>
-                <h3>Beijing University of Technology</h3>
-                <p class="degree-title">B.S. in Statistics</p>
-                <p>GPA: 3.46/4.0</p>
-            </div>
-        </div>
     </section>
 
     <footer>
